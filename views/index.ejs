@@ -1,0 +1,18 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="/style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="profile">
+    <h1><%= profile.name %></h1>
+    <p><%= profile.bio %></p>
+    <img src="<%= profile.photo %>" alt="Profile Photo" class="profile-photo">
+  </div>
+</body>
+</html>
